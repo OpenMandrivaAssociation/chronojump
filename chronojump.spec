@@ -3,7 +3,7 @@
 
 Summary:	A measurement, management and statistics sport testing tool
 Name:		chronojump
-Version:	1.3.1
+Version:	2.1.2
 Release:	1
 Group:		Sciences/Mathematics
 License:	GPLv2+
@@ -35,10 +35,10 @@ Chronojump is used by trainers, teachers and students.
 #mv $TMP src/util.cs
 
 %build
-%configure2_5x \
+%configure \
 	--disable-static
 
-%make
+%make_build
 
 #cat > src/chronojump <<EOF
 #!/bin/sh
@@ -47,7 +47,7 @@ Chronojump is used by trainers, teachers and students.
 #EOF
 
 %install
-%makeinstall_std
+%make_install
 
 # this file should be in the standard dir
 #rm %{buildroot}/%{_datadir}/doc/chronojump/chronojump_manual_es.pdf
