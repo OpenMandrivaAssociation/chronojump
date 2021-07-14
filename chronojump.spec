@@ -1,5 +1,5 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
-%define	gstapi	0.10
+%define	gstapi	1.0
 
 Summary:	A measurement, management and statistics sport testing tool
 Name:		chronojump
