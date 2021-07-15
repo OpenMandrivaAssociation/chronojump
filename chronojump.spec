@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gtk-sharp-2.0)
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
 BuildRequires:	pkgconfig(gstreamer-app-%{gstapi})
-BuildRequires:	pkgconfig(mono)
+#BuildRequires:	pkgconfig(mono)
 
 %description
 ChronoJump is an open hardware, free software, multiplatform complete system
