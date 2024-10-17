@@ -7,7 +7,7 @@ Version:	2.1.2
 Release:	1
 Group:		Sciences/Mathematics
 License:	GPLv2+
-Url:		http://chronojump.org
+Url:		https://chronojump.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/chronojump/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(glade-sharp-2.0)
