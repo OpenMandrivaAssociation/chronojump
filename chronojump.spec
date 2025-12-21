@@ -10,6 +10,11 @@ License:	GPLv2+
 Url:		https://chronojump.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/chronojump/%{url_ver}/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(glade-sharp-2.0)
 BuildRequires:	pkgconfig(glib-sharp-2.0)
 BuildRequires:	pkgconfig(gtk+-2.0)
